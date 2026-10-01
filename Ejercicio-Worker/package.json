@@ -1,0 +1,14 @@
+{
+  "name": "event-loop-lab",
+  "version": "1.0.0",
+  "description": "Ejercicio para comparar el Event Loop de Node.js con CPU en hilo principal y Worker Threads.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
